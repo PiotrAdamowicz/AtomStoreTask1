@@ -1,0 +1,29 @@
+body {
+  background: rgb(167, 165, 165);
+  font-family: Helvetica, Arial, sans-serif;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 5% auto;
+}
+thead {
+  font-weight: bold;
+}
+.record {
+  width: 100%;
+  border: solid 1px black;
+}
+.record-container {
+  display: flex;
+  justify-content: space-between;
+}
+.field {
+  width: 100%;
+  border: solid 1px black;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
